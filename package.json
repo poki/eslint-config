@@ -1,6 +1,6 @@
 {
   "name": "@poki/eslint-config",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "license": "MIT",
   "dependencies": {
     "eslint-config-airbnb": "^16.1.0",
