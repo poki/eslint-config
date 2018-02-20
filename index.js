@@ -1,6 +1,7 @@
 const fs = require('fs');
+const path = require('path');
 const yaml = require('js-yaml');
 
 module.exports = yaml.load(
-	fs.readFileSync('./eslintrc.yml'),
+	fs.readFileSync(path.join(__dirname, 'eslintrc.yml')),
 );
