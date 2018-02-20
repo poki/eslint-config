@@ -1,0 +1,76 @@
+---
+extends: airbnb
+parser: babel-eslint
+env:
+  browser: true
+  jest/globals: true
+  node: true
+plugins:
+  - eslint-plugin-jest
+  - eslint-plugin-import
+  - eslint-plugin-jsx-a11y
+  - eslint-plugin-react
+settings:
+  import/resolver: webpack
+rules:
+  arrow-parens:
+  - 2
+  - as-needed
+  consistent-return: 0
+  default-case: 0
+  function-paren-newline:
+  - 2
+  - consistent
+  import/first: 0
+  import/no-extraneous-dependencies: 0
+  import/no-named-as-default: 0
+  import/prefer-default-export: 0
+  indent:
+  - 2
+  - tab
+  jsx-a11y/anchor-is-valid:
+  - 2
+  - components:
+    - Link
+    specialLink:
+    - to
+  jsx-a11y/label-has-for: 0
+  jsx-a11y/no-static-element-interactions: 0
+  max-len: 0
+  no-console:
+  - 2
+  - allow:
+    - info
+    - error
+  no-constant-condition: 0
+  no-continue: 0
+  no-multiple-empty-lines:
+  - 2
+  - max: 1
+    maxBOF: 0
+    maxEOF: 0
+  no-multi-spaces:
+  - 2
+  - ignoreEOLComments: true
+  no-nested-ternary: 0
+  no-param-reassign: 0
+  no-plusplus: 0
+  no-shadow:
+  - 2
+  - allow:
+    - err
+  no-tabs: 0
+  no-underscore-dangle: 0
+  object-curly-newline: 0
+  react/jsx-filename-extension:
+  - 2
+  - extensions:
+    - .js
+  react/jsx-indent:
+  - 2
+  - tab
+  react/jsx-indent-props:
+  - 2
+  - tab
+  react/no-typos: 0
+  react/prefer-stateless-function: 0
