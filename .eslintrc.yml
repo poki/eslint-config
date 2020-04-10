@@ -66,6 +66,7 @@ rules:
   - 2
   - extensions:
     - .js
+    - .tsx
   react/jsx-indent:
   - 2
   - tab
