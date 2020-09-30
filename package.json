@@ -1,6 +1,6 @@
 {
   "name": "@poki/eslint-config",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "license": "MIT",
   "dependencies": {
     "babel-eslint": "^8.2.2",
