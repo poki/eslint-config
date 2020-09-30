@@ -1,5 +1,7 @@
 ---
 extends: airbnb
+env:
+  jest/globals: true
 plugins:
   - eslint-plugin-jest
   - eslint-plugin-import
