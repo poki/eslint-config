@@ -1,5 +1,10 @@
 ---
 extends: airbnb
+plugins:
+  - eslint-plugin-jest
+  - eslint-plugin-import
+  - eslint-plugin-jsx-a11y
+  - eslint-plugin-react
 rules:
   arrow-parens:
   - 2
