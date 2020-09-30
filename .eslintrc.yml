@@ -1,15 +1,5 @@
 ---
 extends: airbnb
-parser: babel-eslint
-env:
-  jest/globals: true
-plugins:
-  - eslint-plugin-jest
-  - eslint-plugin-import
-  - eslint-plugin-jsx-a11y
-  - eslint-plugin-react
-settings:
-  import/resolver: webpack
 rules:
   arrow-parens:
   - 2
